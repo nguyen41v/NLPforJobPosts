@@ -387,7 +387,7 @@ Michigan Algorithm Decoder
 MAD/I
 Magik
 Magma
-make
+make (Programming Language)
 Maude system
 Maple
 MAPPER
@@ -644,6 +644,7 @@ SPIN
 SP/k
 SPS
 SQL
+MySQL
 SQR
 Squeak
 Squirrel
