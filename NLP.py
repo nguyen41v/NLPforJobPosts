@@ -16,6 +16,7 @@ class heatmapLevelGenerator():
             for line in reader:
                 self.languages.append(line.strip())
 
+
         self.valueOne = []
         with open('valueOne.txt', 'r') as txtfile1:
             reader1 = txtfile1.readlines()
@@ -76,5 +77,3 @@ class heatmapLevelGenerator():
 if __name__ == '__main__':
     hi = heatmapLevelGenerator()
     hi.reader('test.txt')
-
-
