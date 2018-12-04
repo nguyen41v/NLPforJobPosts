@@ -60,7 +60,7 @@ Averest
 AWK
 Axum
 Active Server Pages
-B
+B (programming language)
 Babbage
 Bash
 BASIC
@@ -147,6 +147,7 @@ Cryptol
 Crystal
 Csound
 CSP
+CSS
 CUDA
 Cuneiform
 Curl
@@ -283,6 +284,7 @@ Hugo
 Hume
 HyperTalk
 Hexa
+HTML
 Io
 Icon
 IBM Basic assembly language
@@ -312,6 +314,7 @@ JOSS
 Joule
 JOVIAL
 Joy
+JS
 JScript
 JScript .NET
 JSON
@@ -729,6 +732,7 @@ XC
 XMOS architecture
 xHarbour
 XL
+XML
 Xojo
 XOTcl
 XOD
