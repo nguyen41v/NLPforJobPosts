@@ -1,22 +1,22 @@
-year, 1
-years, 1
-yr, 1
-yrs, 1
-extensive, 1
-hands-on, 1
-efficiently, 1
-proven, 1
-ability, 1
-demonstrate, 1
-demonstrated, 1
-experience, 1
-experienced, 1
-exposure, 1
-expose, 1
-exposed, 1
-knowledge, 1
-familiar, 1
-familiarity, 1
-proven, 1
-proficient, 1
-skill, 1
+year
+years
+yr
+yrs
+extensive
+hands-on
+efficiently
+proven
+ability
+demonstrate
+demonstrated
+experience
+experienced
+exposure
+expose
+exposed
+knowledge
+familiar
+familiarity
+proven
+proficient
+skill

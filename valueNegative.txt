@@ -1,4 +1,4 @@
-additional, -1
-preferred, -1
-helpful, -1
-no experience, -1
+additional
+preferred
+helpful
+no experience
