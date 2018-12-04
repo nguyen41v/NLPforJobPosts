@@ -70,6 +70,7 @@ class heatmapLevelGenerator():
             words = line.strip().split(' ') # not accounting for languages that have spaces in them for now
             temps = [] # store words found in this line
             for word in words:
+                word = word.replace(',', '')
                 if word in self.languages:
                     if word not in temps:
                         temps.append(word)
@@ -119,7 +120,7 @@ class heatmapLevelGenerator():
             # jd = soup.find("span", {"class": classname, "data-value": True})['data-value']
             jd = str(soup.find(id='JobDescription'))
             # print(jd)
-            # print(self.clearTags(jd))
+            print(self.clearTags(jd))
             return self.clearTags(jd)
             # print(jd)
         else:
@@ -127,7 +128,7 @@ class heatmapLevelGenerator():
 
     def clearTags(self, text):
         while text.rfind('<') != -1:
-            text = text[:text.rfind('<')] + ' ' + text[text.rfind('>') + 1:]
+            text = text[:text.rfind('<')] + '\n' + text[text.rfind('>') + 1:]
         return text.strip().replace('     ', ' ')
 
 
