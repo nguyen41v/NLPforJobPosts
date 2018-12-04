@@ -1,14 +1,6 @@
-import nltk
-import re
-from nltk.tokenize import word_tokenize
-from nltk.tag import pos_tag
 import requests
 from bs4 import BeautifulSoup
 
-def preprocess(sent):
-    sent = nltk.word_tokenize(sent)
-    sent = nltk.pos_tag(sent)
-    return sent
 
 class heatmapLevelGenerator():
     def __init__(self):
@@ -107,7 +99,7 @@ class heatmapLevelGenerator():
     def printJD(self):
         # the target we want to open
         url = input("Copy the Monster Job description page here: ")
-        # url = "https://job-openings.monster.com/application-developer-servicenow-irving-tx-us-christus-health/22/3fd9454f-7271-4904-b74e-05f8dd149e9c"
+        url = url.strip()
         classname = "jobs-box__html-content jobs-description-content__text t-14 t-black--light t-normal"
 
         # open with GET method
