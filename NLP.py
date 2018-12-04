@@ -46,7 +46,7 @@ class heatmapLevelGenerator():
                     if word in self.languages:
                         if word not in temps:
                             temps.append(word)
-                        try:
+                        try: # checking to see if word has been added to dict before, if not, add it and initialize it with a value of 0
                             dict_of_language_scores[word]
                         except KeyError:
                             dict_of_language_scores[word] = 0
