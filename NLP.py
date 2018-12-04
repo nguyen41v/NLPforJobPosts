@@ -130,6 +130,8 @@ class heatmapLevelGenerator():
             print("Error")
 
     def clearTags(self, text):
+        # can make it better by chaning the filler, ex '\n', based off of what is in the brackets
+        # ex. put spaces between things that are bolded and newlines between headings vs paragraphs
         while text.rfind('<') != -1:
             text = text[:text.rfind('<')] + '\n' + text[text.rfind('>') + 1:]
         return text.strip().replace('     ', ' ')
