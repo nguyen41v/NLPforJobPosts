@@ -13,7 +13,17 @@ def preprocess(sent):
 
 
 if __name__ == '__main__':
-    ex = 'Proficient in at least one (preferably two) of the following languages: Python, Java, C, C++, C#, Ruby, JavaScript, or another object-oriented language '
+    # ex = 'Proficient in at least one (preferably two) of the following languages: Python, Java, C, C++, C#, Ruby, JavaScript, or another object-oriented language '
+    # sent = preprocess(ex)
+    # print(sent)
+    languages = []
+    with open('txtFileofLanguages.txt', 'r') as txtfile:
+        reader = txtfile.readlines()
+        for line in reader:
+            print(line.strip())
+            languages.append(line.strip())
+
+
 
 
 

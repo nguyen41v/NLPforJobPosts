@@ -1,5 +1,5 @@
 A# .NET
-A# 
+A#
 Axiom
 A-0 System
 A+
@@ -11,7 +11,7 @@ ABSET
 ABSYS
 ACC
 Accent
-Ace DASL 
+Ace DASL
 Distributed Application Specification Language
 ACL2
 ACT-III
@@ -38,7 +38,7 @@ Amiga E
 AMOS
 AMPL
 AngelScript
-Apex 
+Apex
 APL
 App Inventor for Android's visual block language
 AppleScript
@@ -75,18 +75,18 @@ Blockly
 BlooP
 Boo
 Boomerang
-Bourne shell 
+Bourne shell
 Bash
 ksh
 BPEL
 Business Basic
 C
 C--
-C++ 
+C++
 C*
 C#
 C/AL
-Caché ObjectScript
+Cache ObjectScript
 C Shell
 csh
 Caml
@@ -94,7 +94,7 @@ Cayenne
 CDuce
 Cecil
 Cesil
-Céu
+Ceu
 Ceylon
 CFEngine
 Cg
@@ -108,7 +108,7 @@ chomski
 ChucK
 Cilk
 Citrine
-CL 
+CL
 Claire
 Clarion
 Clean
@@ -118,23 +118,23 @@ CLIST
 Clojure
 CLU
 CMS-2
-COBOL 
-CobolScript 
+COBOL
+CobolScript
 COBOL
 Cobra
 CoffeeScript
 ColdFusion
 COMAL
-Combined Programming Language 
+Combined Programming Language
 CPL
 COMIT
-Common Intermediate Language 
+Common Intermediate Language
 CIL
-Common Lisp 
+Common Lisp
 CL
 COMPASS
 Component Pascal
-Constraint Handling Rules 
+Constraint Handling Rules
 CHR
 COMTRAN
 Cool
@@ -155,7 +155,7 @@ Cybil
 Cyclone
 Cython
 D
-DASL 
+DASL
 Datapoint's Advanced Systems Language
 Dart
 Darwin
@@ -173,7 +173,7 @@ Draco
 DRAKON
 Dylan
 DYNAMO
-DAX 
+DAX
 Data Analysis Expressions
 E
 Ease
@@ -190,9 +190,9 @@ Elm
 Emacs Lisp
 Emerald
 Epigram
-EPL 
+EPL
 Easy Programming Language
-EPL 
+EPL
 Eltron Programming Language
 Erlang
 es
@@ -204,7 +204,7 @@ Euclid
 Euler
 Euphoria
 EusLisp Robot Programming Language
-CMS EXEC 
+CMS EXEC
 EXEC
 EXEC 2
 Executable UML
@@ -216,7 +216,7 @@ Falcon
 Fantom
 FAUST
 FFP
-Fjölnir
+Fjolnir
 FL
 Flavors
 Flex
@@ -228,7 +228,7 @@ FOIL
 FORMAC
 @Formula
 Forth
-Fortran 
+Fortran
 Fortress
 FoxBase
 FoxPro
@@ -252,9 +252,9 @@ GM
 Go
 Go!
 GOAL
-Gödel
+GÃƒÂ¯Ã‚Â¿Ã‚Â½del
 Golo
-GOM 
+GOM
 Good Old Mad
 Google Apps Script
 Gosu
@@ -266,7 +266,7 @@ Groovy
 Hack
 HAGGIS
 HAL/S
-Halide 
+Halide
 Hamilton C shell
 Harbour
 Hartmann pipelines
@@ -284,7 +284,7 @@ Hume
 HyperTalk
 Hexa
 Io
-Icon 
+Icon
 IBM Basic assembly language
 IBM BASICA
 IBM HAScript
@@ -297,9 +297,9 @@ J#
 J++
 JADE
 JAL
-Janus 
+Janus
 concurrent constraint programming language
-Janus 
+Janus
 time-reversible computing programming language
 JASS
 Java
@@ -329,10 +329,10 @@ KIF
 Kojo
 Kotlin
 KRC
-KRL 
+KRL
 KUKA Robot Language
 KRYPTON
-Korn shell 
+Korn shell
 ksh
 Kodu
 Kv
@@ -355,7 +355,7 @@ Lingo
 LINQ
 LIS
 LISA
-Lisp 
+Lisp
 Lite-C
 Lithe
 Little b
@@ -373,13 +373,13 @@ Lucid
 Lustre
 LYaPAS
 Lynx
-M 
+M
 MUMPS
 M2001
 M4
 M#
 Machine code
-MAD 
+MAD
 Michigan Algorithm Decoder
 MAD/I
 Magik
@@ -387,34 +387,34 @@ Magma
 make
 Maude system
 Maple
-MAPPER 
+MAPPER
 BIS
-MARK-IV 
+MARK-IV
 VISION:BUILDER
 Mary
 MASM Microsoft Assembly x86
 MATH-MATIC
 Mathematica
 MATLAB
-Maxima 
+Maxima
 Macsyma
-Max 
-Max Msp 
-MaxScript 
-Maya 
+Max
+Max Msp
+MaxScript
+Maya
 MEL
 MDL
 Mercury
 Mesa
 Metafont
-MetaQuotes Language 
+MetaQuotes Language
 MQL4/MQL5
-MHEG-5 
+MHEG-5
 Interactive TV programming language
 Microcode
 MicroScript
 MIIS
-Milk 
+Milk
 MIMIC
 Mirah
 Miranda
@@ -431,12 +431,12 @@ Mortran
 Mouse
 MPD
 Mathcad
-MSIL 
+MSIL
 MSL
 MUMPS
 MuPAD
 Mutan
-Mystic Programming Language 
+Mystic Programming Language
 MPL
 NASM
 Napier88
@@ -456,9 +456,9 @@ Nice
 Nickle (NITIN)
 Nim
 NPL
-Not eXactly C 
+Not eXactly C
 NXC
-Not Quite C 
+Not Quite C
 NQC
 NSIS
 Nu
@@ -498,9 +498,9 @@ Oz
 P
 P4
 P''
-ParaSail 
+ParaSail
 PARI/GP
-Pascal – ISO 7185
+Pascal
 PCASTL
 PCF
 PEARL
@@ -513,7 +513,7 @@ PHP
 Pico
 Picolisp
 Pict
-Pig 
+Pig
 Pike
 PIKT
 PILOT
@@ -523,13 +523,13 @@ PL-11
 PL/0
 PL/B
 PL/C
-PL/I 
+PL/I
 PL/M
 PL/P
 PL/SQL
 PL360
 PLANC
-Plankalkül
+Plankalkul
 Planner
 PLEX
 PLEXIL
@@ -539,7 +539,7 @@ POP-2
 PostScript
 PortablE
 Powerhouse
-PowerBuilder 
+PowerBuilder
 PowerShell
 PPL
 Processing
@@ -557,8 +557,8 @@ Pure
 PureBasic
 Pure Data
 Python
-Q 
-Q# 
+Q
+Q#
 Qalb
 QtScript
 QuakeC
@@ -628,7 +628,7 @@ Smalltalk
 SML
 Strongtalk
 Snap!
-SNOBOL 
+SNOBOL
 SPITBOL
 Snowball
 SOL
@@ -652,8 +652,8 @@ Stateflow
 Subtext
 SuperCollider
 SuperTalk
-Swift 
-Swift 
+Swift
+Swift
 SYMPL
 SystemVerilog
 T
@@ -717,20 +717,20 @@ WebDNA
 WebQL
 Whiley
 Winbatch
-Wolfram Language
+Wolfram
 Wyvern
 X++
 X10
 xBase
 xBase++
 XBL
-XC 
+XC
 XMOS architecture
 xHarbour
 XL
 Xojo
 XOTcl
-XOD 
+XOD
 XPath
 XPL
 XPL0
@@ -751,4 +751,4 @@ ZetaLisp
 ZOPL
 Zsh
 ZPL
-Z++
+Z+

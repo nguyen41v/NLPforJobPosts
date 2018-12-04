@@ -1,0 +1,5 @@
+advanced, 2
+must, 2
+very, 2
+skilled, 2
+strong, 2
