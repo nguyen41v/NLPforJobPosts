@@ -314,7 +314,6 @@ JOSS
 Joule
 JOVIAL
 Joy
-JS
 JScript
 JScript .NET
 JSON
@@ -387,7 +386,7 @@ Michigan Algorithm Decoder
 MAD/I
 Magik
 Magma
-make
+make (programming language)
 Maude system
 Maple
 MAPPER
