@@ -6,10 +6,10 @@ import requests
 from bs4 import BeautifulSoup
 
 
-# def preprocess(sent):
-#    sent = nltk.word_tokenize(sent)
-#    sent = nltk.pos_tag(sent)
-#    return sent
+## def preprocess(sent):
+##    sent = nltk.word_tokenize(sent)
+##    sent = nltk.pos_tag(sent)
+##    return sent
 
 class heatmapLevelGenerator():
     def __init__(self):
@@ -72,39 +72,49 @@ class heatmapLevelGenerator():
                 heatmap_value = 0
             print(key, heatmap_value)
 
-def news():
-    # the target we want to open
-    # url = input("Copy the LinkedIn Job description page here: ")
-    url = 'http://www.hindustantimes.com/top-news'
-    classname = "jobs-box__html-content jobs-description-content__text t-14 t-black--light t-normal"
+    def printJD(self):
+        # the target we want to open
+        # url = input("Copy the LinkedIn Job description page here: ")
+        url = "https://job-openings.monster.com/application-developer-servicenow-irving-tx-us-christus-health/22/3fd9454f-7271-4904-b74e-05f8dd149e9c"
+        classname = "jobs-box__html-content jobs-description-content__text t-14 t-black--light t-normal"
+        
+        # open with GET method
+        resp = requests.get(url)
 
-    # open with GET method
-    resp = requests.get(url)
+        # http_respone 200 means OK status
+        if resp.status_code == 200:
+            print("Successfully opened the web page")
+            print("The job descriptions are as follow :-\n")
 
-    # http_respone 200 means OK status
-    if resp.status_code == 200:
-        print("Successfully opened the web page")
-        print("The job descriptions are as follow :-\n")
+            # we need a parser,Python built-in HTML parser is enough .
+            soup = BeautifulSoup(resp.text, 'html.parser')
 
-        # we need a parser,Python built-in HTML parser is enough .
-        soup = BeautifulSoup(resp.text, 'html.parser')
+            # l is the list which contains all the text i.e news
+            # jd = soup.find("ul", id="mylist")
+            # jd = soup.find("ul",{"class":classname}).text
+            # jd = soup.find("span", {"class": classname, "data-value": True})['data-value']
+            jd = soup.find(id='JobDescription')
+            jd.prettify(formatter=None)
+            print(jd) 
+        else:
+            print("Error")
 
-        # l is the list which contains all the text i.e news
-        jd = soup.find("ul", {"class": classname})
-
-        # now we want to print only the text part of the anchor.
-        # find all the elements of a, i.e anchor
-        for i in l.findAll("a"):
-            print(i.text)
-    else:
-        print("Error")
-
-
-news()
+    def clearTags(self, text):
+        counter = 0
+        start = 0
+        finish = 0
+        cleanText = ""
+        
+        for i in text:
+            counter += 1
+            if i == ">":
+                start = counter + 1
+            
 
 
 if __name__ == '__main__':
     hi = heatmapLevelGenerator()
-    hi.reader('test.txt')
+    # hi.reader('test.txt')
+    hi.printJD()
 
 
