@@ -66,19 +66,17 @@ class heatmapLevelGenerator():
     def readerWeb(self, text):
         dict_of_language_scores = {}
         reader = text.split('.')
+        preferred = False
         for line in reader:
             words = line.strip().split(' ') # not accounting for languages that have spaces in them for now
             temps = [] # store words found in this line
-            preferred = False
+            if 'prefer' in line.lower():
+                preferred = True
             for word in words:
                 word = word.replace(',', '')
-                print(words)
                 if word in self.languages:
-                    if 'prefer' in word.lower():
-                        preferred = True
                     if word not in temps and not preferred:
                         temps.append(word)
-                        print(word)
                     try:
                         dict_of_language_scores[word]
                     except KeyError:
@@ -86,15 +84,12 @@ class heatmapLevelGenerator():
             # assume that all words apply to all languages that appear in that sentence
             for word in words:
                 if word in self.valueOne:
-                    print(word)
                     for temp in temps:
                         dict_of_language_scores[temp] += 1
                 if word in self.valueTwo:
-                    print(word)
                     for temp in temps:
                         dict_of_language_scores[temp] += 2
                 if word in self.valueNegative:
-                    print(word)
                     for temp in temps:
                         dict_of_language_scores[temp] -= 1
         for key, value in dict_of_language_scores.items():
@@ -128,7 +123,7 @@ class heatmapLevelGenerator():
             # jd = soup.find("span", {"class": classname, "data-value": True})['data-value']
             jd = str(soup.find(id='JobDescription'))
             # print(jd)
-            print(self.clearTags(jd))
+            # print(self.clearTags(jd))
             return self.clearTags(jd)
             # print(jd)
         else:
