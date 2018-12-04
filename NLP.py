@@ -111,8 +111,8 @@ class heatmapLevelGenerator():
 
         # http_respone 200 means OK status
         if resp.status_code == 200:
-            print("Successfully opened the web page")
-            print("The job descriptions are as follow :-\n")
+            print(" - Successfully opened the web page - ")
+            print("Required programming languages are as follow : \n")
 
             # we need a parser,Python built-in HTML parser is enough .
             soup = BeautifulSoup(resp.text, 'html.parser')
