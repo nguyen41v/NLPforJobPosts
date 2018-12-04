@@ -1,11 +1,11 @@
-    Bachelor’s degree in computer science, math, computer engineering or equivalent experience
-    5+ years of experience developing using .Net technologies
-    Software development and testing experience using .Net, C#
-    Understanding of REST, SOAP and JSON
-    Understanding of Event-Based programming
-    General understanding of message brokering and service buses
-    Working knowledge of such platforms as Windows, UNIX, and Linux.
-    Proficient at using code profiling and debugging tools
-    Check work for acceptability and conformance with standards.
-    Able to effectively interact with business customers to understand and derive business needs
-    Experience with large systems software design and development, with knowledge of UNIX/Linux.
+Bachelor’s degree in computer science, math, computer engineering or equivalent experience
+5+ years of experience developing using .Net technologies
+Software development and testing experience using .Net, C#
+Understanding of REST, SOAP and JSON
+Understanding of Event-Based programming
+General understanding of message brokering and service buses
+Working knowledge of such platforms as Windows, UNIX, and Linux.
+Proficient at using code profiling and debugging tools
+Check work for acceptability and conformance with standards.
+Able to effectively interact with business customers to understand and derive business needs
+Experience with large systems software design and development, with knowledge of UNIX/Linux.
