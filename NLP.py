@@ -2,6 +2,8 @@ import nltk
 import re
 from nltk.tokenize import word_tokenize
 from nltk.tag import pos_tag
+import requests
+from bs4 import BeautifulSoup
 
 def preprocess(sent):
     sent = nltk.word_tokenize(sent)
