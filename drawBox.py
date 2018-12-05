@@ -30,12 +30,12 @@ from PIL import Image, ImageDraw
 W, H = (60,20)
 msg = "hello"
 
-im = Image.new("RGBA",(W,H),"blue")
+im = Image.new("RGBA", (W,H), (18, 85, 204, 100))
 draw = ImageDraw.Draw(im)
 w, h = draw.textsize(msg)
 draw.text(((W-w)/2,(H-h)/2), msg, fill="white")
 
-im.save("hello.png", "PNG")
+im.save("helloLight.png", "PNG")
 #
 # # save in new file
 # source_img.save("output.jpg", "JPEG")
