@@ -114,6 +114,8 @@ class heatmapLevelGenerator():
         print("=" * 44)
 
     def readerWeb(self, text):
+        if not text:
+            return
         dict_of_language_scores = {}
         reader = text.split('.')
         preferred = False
@@ -182,14 +184,15 @@ class heatmapLevelGenerator():
             return self.clearTags(jd)
             # print(jd)
         else:
-            print("The webpage was not successfully opened, there may be an error in the address.")
+            print("The webpage was not successfully opened, there may be an error in the address or a login is required to access content.")
+            return ""
 
     def clearTags(self, text):
         # can make it better by chaning the filler, ex '\n', based off of what is in the brackets
         # ex. put spaces between things that are bolded and newlines between headings vs paragraphs
-        while text.rfind('<') != -1:
-            text = text[:text.rfind('<')] + '\n' + text[text.rfind('>') + 1:]
-        return text.strip().replace('     ', ' ')
+        while text.rfind("<") != -1:
+            text = text[:text.rfind("<")] + "\n" + text[text.rfind(">") + 1:]
+        return text.strip().replace("     ", " ")
 
     def main(self):
         direction = input("Hello. This program can parse out programming languages from a job description in a text file or from a job post on Monster.\n"
