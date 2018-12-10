@@ -1,6 +1,6 @@
 Bachelor’s degree in computer science, math, computer engineering or equivalent experience
 5+ years of experience developing using .Net technologies
-Software development and testing experience using .Net, C#
+Software development and testing experience using .Net, Java, C/C#
 Understanding of REST, SOAP and JSON
 Understanding of Event-Based programming
 General understanding of message brokering and service buses

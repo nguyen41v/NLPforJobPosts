@@ -1,5 +1,6 @@
 # Pycharm stuff
 .idea
+.idea/workspace.xml
 
 # Other stuff
 desktop.ini

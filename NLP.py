@@ -35,6 +35,7 @@ class heatmapLevelGenerator():
         with open(filename, 'r') as txtfile:
             reader = txtfile.readlines()
             for line in reader:
+                line = line.replace('/', ' ').replace(',', ' ')
                 words = line.strip().split(' ')  # not accounting for languages that have spaces in them for now
                 temps = []  # store words found in this line
                 for word in words:
@@ -82,7 +83,9 @@ class heatmapLevelGenerator():
         with open(filename, 'r') as txtfile:
             reader = txtfile.readlines()
             for line in reader:
+                line = line.replace('/', ' ').replace(',', ' ')
                 words = line.strip().split(' ') # not accounting for languages that have spaces in them for now
+                print(words)
                 temps = [] # store words found in this line
                 for word in words:
                     if word in self.languages:
@@ -120,6 +123,7 @@ class heatmapLevelGenerator():
         reader = text.split('.')
         preferred = False
         for line in reader:
+            line = line.replace('/', ' ').replace(',', ' ')
             words = line.strip().split(' ')  # not accounting for languages that have spaces in them for now
             temps = [] # store words found in this line
             if 'prefer' in line.lower():
